@@ -15,7 +15,7 @@ const handleTextChange= (e)=> {
     setMessage(null)
   }
   else if(text!=='' && text.trim().length < 9){
-    setMessage('Review Must be atleast 10 Characters')
+    setMessage('Review Must be atleast 10 Characters long')
     setbtnDisabled(true)
   }
   else{
